@@ -74,7 +74,7 @@ const Home: React.FC = () => {
           >
             <div className="absolute inset-0 rounded-2xl border border-light-border dark:border-dark-border shadow-lg overflow-hidden">
               <img 
-                src="../public/assets/image.jpeg" 
+                src="/assets/image.jpeg" 
                 alt="Subham Bhattacharya"
                 className="w-full h-full object-cover"
               />
