@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: 124, 58, 237;     /* Purple */
+    --light-bg: 249, 250, 251;    /* Gray-50 */
+    --light-card: 255, 255, 255;  /* White */
+    --light-text: 17, 24, 39;     /* Gray-900 */
+    --light-border: 229, 231, 235; /* Gray-200 */
+    --light-accent: 243, 244, 246; /* Gray-100 */
+    
+    --dark-bg: 15, 23, 42;         /* Slate-900 */
+    --dark-card: 30, 41, 59;       /* Slate-800 */
+    --dark-text: 241, 245, 249;    /* Slate-100 */
+    --dark-border: 51, 65, 85;     /* Slate-700 */
+    --dark-accent: 51, 65, 85;     /* Slate-700 */
+  }
+
+  /* Light mode */
+  [data-theme="light"] {
+    color-scheme: light;
+  }
+
+  /* Dark mode */
+  [data-theme="dark"] {
+    color-scheme: dark;
+  }
+
+  html, body {
+    height: 100%;
+    cursor: none;
+  }
+
+  * {
+    cursor: none !important;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-light-accent dark:bg-dark-accent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary/40 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary/60;
+  }
+
+  /* Pixel-style selection */
+  ::selection {
+    @apply bg-primary/30 text-light-text dark:text-dark-text;
+  }
+}
+
+/* Bento grid layout */
+@layer components {
+  .bento-grid {
+    @apply grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4;
+  }
+
+  .bento-item {
+    @apply bg-light-card dark:bg-dark-card rounded-xl border border-light-border dark:border-dark-border p-4 shadow-sm;
+  }
+
+  .bento-item-2x1 {
+    @apply md:col-span-2 md:row-span-1;
+  }
+
+  .bento-item-1x2 {
+    @apply md:col-span-1 md:row-span-2;
+  }
+
+  .bento-item-2x2 {
+    @apply md:col-span-2 md:row-span-2;
+  }
+}
+
+/* Animations */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(var(--primary), 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(var(--primary), 0.8);
+  }
+}
+
+.animate-glow {
+  animation: glow 3s ease-in-out infinite;
+}
+
+/* Slick carousel customization */
+.slick-dots {
+  @apply bottom-0 !important;
+}
+
+.slick-dots li {
+  @apply mx-1 !important;
+}
+
+.slick-dots li button:before {
+  @apply hidden !important;
+}
