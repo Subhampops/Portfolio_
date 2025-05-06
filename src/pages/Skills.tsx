@@ -14,6 +14,8 @@ const Skills: React.FC = () => {
     { id: 'frontend', name: 'Frontend' },
     { id: 'backend', name: 'Backend' },
     { id: 'design', name: 'Design' },
+    { id: 'hardware', name: 'Hardware' },
+    { id: 'blockchain', name: 'Blockchain' },
     { id: 'tools', name: 'Tools & DevOps' },
   ];
   
