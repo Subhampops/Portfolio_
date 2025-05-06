@@ -9,44 +9,44 @@ export interface Partner {
 export const partners: Partner[] = [
   {
     id: 1,
-    name: "Unity Technologies",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg",
-    website: "https://unity.com",
-    description: "Certified Unity developer and community contributor"
+    name: "Robotics Club, Asansol Engineering College",
+    logo: "assets/rlogo.svg",
+    website: "https://www.linkedin.com/company/robotics-club-aec2017",
+    description: "President"
   },
   {
     id: 2,
-    name: "Mozilla Developer Network",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firefox/firefox-original.svg",
-    website: "https://developer.mozilla.org",
-    description: "Content contributor and documentation reviewer"
+    name: "HackTropica 2025",
+    logo: "assets/hlogo.svg",
+    website: "https://www.hacktropica.tech/",
+    description: "Lead Organizer"
   },
   {
     id: 3,
-    name: "GitHub Education",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    name: "Entrepreneurship Development Cell of Asansol Engineering College",
+    logo: "assets/elogo.svg",
     website: "https://education.github.com",
-    description: "Campus expert and workshop facilitator"
+    description: "Core Committee Member"
   },
   {
     id: 4,
-    name: "Indie Game Developer Association",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-    website: "https://igda.org",
-    description: "Active member and event organizer"
+    name: "Google Cloud Arcade Facilitator Program 2024",
+    logo: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/events/arcade_email_mobile_header-removebg-preview_HgIPkuv.png",
+    website: "https://go.qwiklabs.com/arcade",
+    description: "Cloud Arcade Facilitator"
   },
   {
     id: 5,
-    name: "Web3 Gaming Alliance",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/polygon/polygon-original.svg",
+    name: "Apex Circle",
+    logo: "assets/apex.png",
     website: "https://web3gaming.org",
-    description: "Contributor to open standards for blockchain gaming"
+    description: "Co-Lead"
   },
   {
     id: 6,
-    name: "Game Developers Conference",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-    website: "https://gdconf.com",
-    description: "Speaker and session coordinator"
+    name: "Apertre 2.0",
+    logo: "assets/alogo.png",
+    website: "https://s2apertre.resourcio.in/",
+    description: "Contributer"
   }
 ];
