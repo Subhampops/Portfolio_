@@ -132,5 +132,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📞 Contact
 
 Subham Bhattacharya
-- Email: Subham Bhattacharya 
+- Email: subhampops2409@gmail.com 
 - Website: [Link]([https://subhambhattacharya.com](https://portfolio-virid-eta-88.vercel.app/))
