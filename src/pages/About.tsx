@@ -26,7 +26,7 @@ const About: React.FC = () => {
           >
             <div className="rounded-xl overflow-hidden border border-light-border dark:border-dark-border h-[350px]">
               <img 
-                src="/assets/About/header.jpeg" 
+                src="assets/About/header.jpeg" 
                 alt="Subham Bhattacharya" 
                 className="w-full h-full object-cover"
               />
