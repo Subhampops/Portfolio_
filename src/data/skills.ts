@@ -112,6 +112,18 @@ export const skills: Skill[] = [
     category: 'backend'
   },
   {
+    name: "PostgreSQL",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/postgresql/postgresql-original.svg",
+    level: 82,
+    category: 'backend'
+  },
+  {
+    name: "Appwrite",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/appwrite/appwrite-original.svg",
+    level: 82,
+    category: 'backend'
+  },
+  {
     name: "Firebase",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
     level: 88,
@@ -120,14 +132,26 @@ export const skills: Skill[] = [
 
   // Design
   {
+    name: "Canva",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/canva/canva-original.svg",
+    level: 90,
+    category: 'design'
+  },
+  {
     name: "Figma",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
     level: 90,
     category: 'design'
   },
   {
+    name: "XD",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/xd/xd-original.svg",
+    level: 90,
+    category: 'design'
+  },
+  {
     name: "Photoshop",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/photoshop/photoshop-original.svg",
     level: 85,
     category: 'design'
   },
