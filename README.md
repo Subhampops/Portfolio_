@@ -81,7 +81,7 @@ Update the following files to customize content:
 - `src/data/projects.ts` - Project showcase
 - `src/data/skills.ts` - Skills and expertise
 - `src/data/education.ts` - Education and certifications
-- `src/data/testimonials.ts` - Client testimonials
+- `src/data/testimonials.ts` - Testimonials From people I have worked with.
 - `src/data/awards.ts` - Awards and achievements
 - `src/data/events.ts` - Events and conferences
 - `src/data/partners.ts` - Partners and communities
