@@ -38,6 +38,12 @@ export const skills: Skill[] = [
     category: 'frontend'
   },
   {
+    name: "Next.Js",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/nextjs/nextjs-original.svg",
+    level: 90,
+    category: 'frontend'
+  },
+  {
     name: "Vue.js",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
     level: 80,
@@ -55,8 +61,20 @@ export const skills: Skill[] = [
     level: 90,
     category: 'frontend'
   },
+  {
+    name: "Flutter",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/flutter/flutter-original.svg",
+    level: 50,
+    category: 'frontend'
+  },
 
   // Backend
+  {
+    name: "Nest.Js",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/nestjs/nestjs-original.svg",
+    level: 90,
+    category: 'frontend'
+  },
   {
     name: "Node.js",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
@@ -139,6 +157,13 @@ export const skills: Skill[] = [
     level: 78,
     category: 'tools'
   },
+  {
+    name: "Apache Kalfka",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/apachekafka/apachekafka-original.svg",
+    level: 42,
+    category: 'tools'
+  },
+  
   {
     name: "VSCode",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
