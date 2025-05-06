@@ -8,60 +8,15 @@ import { Calendar, Clock, ChevronRight } from 'lucide-react';
 const blogPosts = [
   {
     id: 1,
-    title: "Creating Pixel-Perfect Game UI with React",
-    excerpt: "Learn how to build game interfaces that maintain pixel perfection across different screen sizes and resolutions.",
-    date: "April 15, 2023",
-    readTime: "8 min read",
-    image: "https://images.pexels.com/photos/2682452/pexels-photo-2682452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    category: "UI Design",
+    title: "The Hackathon Survival Kit: Your Full Stack Guide to Crushing It From Start to Finish",
+    excerpt: "So you're diving into a hackathon? Good. Let’s cut the fluff. This is not your regular guide. This is the unfiltered checklist—the brain, blood, and backbone of every successful hackathon grind.",
+    date: "April 30, 2025",
+    readTime: "15 min read",
+    image: "assets/blog1.jpeg",
+    category: "Hackathon",
     featured: true
   },
-  {
-    id: 2,
-    title: "Optimizing WebGL Performance for Browser Games",
-    excerpt: "Techniques and best practices for squeezing every bit of performance from WebGL in browser-based games.",
-    date: "March 22, 2023",
-    readTime: "12 min read",
-    image: "https://images.pexels.com/photos/1670977/pexels-photo-1670977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    category: "Performance"
-  },
-  {
-    id: 3,
-    title: "The Art of Procedural Generation in Game Development",
-    excerpt: "Explore different approaches to procedural content generation and how to implement them in your games.",
-    date: "February 5, 2023",
-    readTime: "10 min read",
-    image: "https://images.pexels.com/photos/2506947/pexels-photo-2506947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    category: "Game Development"
-  },
-  {
-    id: 4,
-    title: "Building Accessible Games: A Developer's Guide",
-    excerpt: "How to make your games more accessible to players with different abilities and needs.",
-    date: "January 18, 2023",
-    readTime: "7 min read",
-    image: "https://images.pexels.com/photos/7151009/pexels-photo-7151009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    category: "Accessibility"
-  },
-  {
-    id: 5,
-    title: "From Concept to Release: Managing a Solo Game Dev Project",
-    excerpt: "Tips and strategies for successfully completing a game development project as a solo developer.",
-    date: "December 10, 2022",
-    readTime: "9 min read",
-    image: "https://images.pexels.com/photos/1174746/pexels-photo-1174746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    category: "Project Management"
-  },
-  {
-    id: 6,
-    title: "The Psychology of Game Design: Creating Engaging Experiences",
-    excerpt: "Understanding player psychology and how to use it to create more engaging and satisfying game experiences.",
-    date: "November 27, 2022",
-    readTime: "11 min read",
-    image: "https://images.pexels.com/photos/6579813/pexels-photo-6579813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    category: "Game Design",
-    featured: true
-  }
+  
 ];
 
 const Blog: React.FC = () => {
