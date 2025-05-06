@@ -12,27 +12,21 @@ export const testimonials: Testimonial[] = [
     name: "Rumsha Waqia Wania",
     position: "Technical Assistant",
     company: "EY",
-    avatar: "/public/assets/Avatar/Pic1.png"
+    avatar: "/assets/Avatar/Pic1.png"
   },
   {
-    text: "I was blown away by Subham's ability to turn my vague ideas into a polished product. His technical knowledge combined with his creativity makes him stand out from other developers I've worked with.",
-    name: "Sarah Williams",
-    position: "Product Manager",
-    company: "InnovateTech",
-    avatar: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    text: "Working and collaborating with Subham is always a pleasurable experience. It is a honour to work with him in influential projects and events like Hacktropica.Looking forward to fostering more collaborations.",
+    name: "Abhiraj Bose",
+    position: "Content Lead",
+    company: "Resourcio Caommunity",
+    avatar: "assets/Avatar/Pic2.png"
   },
   {
-    text: "Subham has a rare combination of technical expertise and design sensibility. The gaming-inspired portfolio he created for our project attracted a lot of positive attention from our target audience.",
-    name: "Michael Chen",
-    position: "Creative Director",
-    company: "PixelPerfect Studios",
-    avatar: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-  },
-  {
-    text: "Working with Subham was a pleasure. He brings a high level of professionalism and technical skill to every project, and his passion for gaming-inspired design elements added a unique flavor to our collaboration.",
-    name: "Emily Rodriguez",
-    position: "UX Designer",
-    company: "GameCraft",
-    avatar: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    text: "I’ve had the opportunity to observe Subham’s work across multiple events, and I can confidently say that he stands out as an exceptionally talented and technically gifted individual. His ability to approach challenges with clarity and creativity is impressive, and he consistently delivers high-quality results under pressure.What truly sets Subham apart, beyond his technical expertise, is his humility and dedication. Despite his remarkable skills, he remains grounded and always willing to support his peers. His work ethic is unmatched, and he brings a rare combination of passion, discipline, and collaborative spirit to any team he’s part of.Subham is not only a brilliant contributor but also an inspiring presence in any technical setting. I look forward to seeing the amazing things he will accomplish in the future.",
+    name: "Ayush Das",
+    position: "Up Coming Amazon SDE",
+    company: "Amazon",
+    avatar: "assets/Avatar/Pic3.png"
   }
+  
 ];
