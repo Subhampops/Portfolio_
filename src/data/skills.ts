@@ -51,7 +51,7 @@ export const skills: Skill[] = [
   },
   {
     name: "Tailwind CSS",
-    icon: "https://commons.wikimedia.org/wiki/File:Tailwind_CSS_Logo.svg",
+    icon: "https://github.com/devicons/devicon/blob/v2.16.0/icons/tailwindcss/tailwindcss-original.svg",
     level: 90,
     category: 'frontend'
   },
