@@ -195,3 +195,33 @@ export const skills: Skill[] = [
     category: 'tools'
   }
 ];
+// Hardware
+  {
+    name: "Ardunio IDE",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/arduino/arduino-original.svg",
+    level: 90,
+    category: 'tools'
+  }
+  
+];
+// BlockChain
+  {
+    name: "Etherium",
+    icon: "https://cryptologos.cc/logos/ethereum-eth-logo.svg",
+    level: 80,
+    category: 'tools'
+  },
+  {
+    name: "Avlanche",
+    icon: "https://cryptologos.cc/logos/avalanche-avax-logo.svg",
+    level: 59,
+    category: 'tools'
+  },
+  {
+    name: "Pharos",
+    icon: "https://pbs.twimg.com/profile_images/1899385457047412736/vfvmbKVj_400x400.jpg",
+    level: 43,
+    category: 'tools'
+  },
+  
+];
