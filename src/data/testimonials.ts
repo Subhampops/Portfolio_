@@ -10,7 +10,7 @@ export const testimonials: Testimonial[] = [
   {
     text: "Subham is an exceptional individual whose dedication, diligence, and passion for excellence are truly commendable. He consistently demonstrates a high level of commitment and professionalism in all his endeavors.As a prominent and active member of the Robotics Club, Subham has made significant contributions through his innovative thinking and technical expertise. His leadership and initiative were particularly evident when he successfully organized a 24-hour Hackathon under the title Hackatropia, marking a milestone in the club’s history. The event not only showcased his organizational capabilities but also highlighted his ability to inspire and lead teams toward a common goal.",
     name: "Rumsha Waqia Wania",
-    position: "Technical Assistant",
+    position: "Technical Consultant",
     company: "EY",
     avatar: "/assets/Avatar/Pic1.png"
   },
@@ -18,7 +18,7 @@ export const testimonials: Testimonial[] = [
     text: "Working and collaborating with Subham is always a pleasurable experience. It is a honour to work with him in influential projects and events like Hacktropica.Looking forward to fostering more collaborations.",
     name: "Abhiraj Bose",
     position: "Content Lead",
-    company: "Resourcio Caommunity",
+    company: "Resourcio Community",
     avatar: "/assets/Avatar/Pic2.png"
   },
   {
