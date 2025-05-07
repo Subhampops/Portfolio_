@@ -53,7 +53,7 @@ const Home: React.FC = () => {
             >
               <Button
                 icon={<Download size={16} />}
-                onClick={() => window.open('https://drive.google.com/file/d/12XkB2M_VPW-i2f0B-nRn5WmPbxUXSRKe/view?usp=drive_link', '_blank')}
+                onClick={() => window.open('https://drive.google.com/file/d/12XkB2M_VPW-i2f0B-nRn5WmPbxUXSRKe/view?usp=sharing', '_blank')}
                 variant="outline"
               >
                 Download Resume
