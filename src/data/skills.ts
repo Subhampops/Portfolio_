@@ -202,7 +202,6 @@ export const skills: Skill[] = [
     level: 90,
     category: 'hardware'
   }
-  
 ];
 // BlockChain
   {
@@ -223,5 +222,4 @@ export const skills: Skill[] = [
     level: 43,
     category: 'blockchain'
   },
-  
 ];
