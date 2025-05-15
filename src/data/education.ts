@@ -93,5 +93,22 @@ export const certifications: Certification[] = [
     date: "March 2024",
     credentialUrl: "https://www.coursera.org/account/accomplishments/verify/SE4MYN3DRBAB",
     logo: "https://cdn.brandfetch.io/idcuOol42D/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B"
+  },
+  {
+    id: 5,
+    name: "R for Data Science",
+    issuer: "IBM",
+    date: "May 2025",
+    credentialUrl: "https://courses.cognitiveclass.ai/certificates/5a07cc1b7c1842aca250ad55f0452a5c",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg"
+  },
+  {
+    id: 6,
+    name: "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
+    issuer: "Oracle",
+    date: "July 2024",
+    credentialId: "312588456OCI2024GAIOCP",
+    credentialUrl: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=B92DFFA48671DF32991226A41EA367E8E0087860F11FC17C36BF35805FE523D9",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg"
   }
 ];
