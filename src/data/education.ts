@@ -104,11 +104,11 @@ export const certifications: Certification[] = [
   },
   {
     id: 6,
-    name: "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
+    name: "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
     issuer: "Oracle",
-    date: "July 2024",
+    date: "April 2025",
     credentialId: "312588456OCI2024GAIOCP",
-    credentialUrl: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=B92DFFA48671DF32991226A41EA367E8E0087860F11FC17C36BF35805FE523D9",
+    credentialUrl: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=6B55375FB28F0C229C93DFF0EBCDDC58276C99900D106DA7FF146421FBDDA749",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg"
   }
 ];
