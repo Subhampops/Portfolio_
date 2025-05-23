@@ -49,7 +49,7 @@ A modern, gaming-inspired portfolio website built with React, TypeScript, and Ta
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone [https://github.com/Subhampops/Portfolio_.git]
 ```
 
 2. Install dependencies:
